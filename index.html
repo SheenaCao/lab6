@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Content Loader - Sheena Cao</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="grid-container">
+        <header>
+            <h1>SIHOO OFFICE</h1>
+        </header>
+        <aside class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="https://www.amazon.com/stores/SIHOO/page/69D3F079-FC2C-426B-9C60-70AFA158F9DD?ref_=ast_bln">Home</a></li>
+                    <li><a href="https://www.amazon.com/stores/page/0F4AB614-8E85-4132-B86C-1BC15A853EB7?ingress=2&visitId=2b194d84-7112-43ff-87fb-fb04852ce6b7&ref_=ast_bln">About</a></li>
+                    <li><a href="https://sihoooffice.com/?campaignid=19727682400&adgroupid=147962807924&feeditemid=&targetid=kwd-637390047517&device=c&creative=649073209841&keyword=sihoo&adposition=&matchtype=e&gad_source=1&gclid=CjwKCAiArLyuBhA7EiwA-qo80OcRZNaUDRvRoz_lra0imzcUUEpJpG8YViqgQYhzT78o0d8CUsW1aRoCngEQAvD_BwE">Contact</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <main>
+            <p>Explore our products:</p>
+            <div class="products">
+                <!-- Product 1 -->
+                <div class="product">
+                    <a href="https://www.amazon.com/dp/B07GNDDNMW/?_encoding=UTF8&pd_rd_i=B07GNDDNMW" target="_blank">
+                        <img src="chair.jpg" alt="SIHOO M18 Ergonomic Office Chair for Big and Tall People" style="width:100%; height:auto;">
+                        <h4>SIHOO M18 Ergonomic Office Chair for Big and Tall People</h4>
+                        <p>Adjustable Headrest with 2D Armrest Lumbar Support and PU Wheels Swivel Tilt Function Black</p>
+                    </a>
+                </div>
+                <!-- Product 2 -->
+                <div class="product">
+                    <a href="https://www.amazon.com/dp/B0C3T865C2?ref=emc_p_m_5_i_atc" target="_blank">
+                        <img src="chair2.jpg" alt="SIHOO Doro C300 Ergonomic Office Chair with Ultra Soft 3D Armrests, Dynamic Lumbar Support" style="width:100%; height:auto;">
+                        <h4>SIHOO Doro C300 Ergonomic Office Chair</h4>
+                        <p>Ultra Soft 3D Armrests, Dynamic Lumbar Support</p>
+                    </a>
+                </div>
+            </div>
+            <button id="loadMore">Load More Products</button>
+        </main>
+        <footer>
+            <p>Last updated: <span id="lastModified"></span></p>
+            <p>This page demonstrates a dynamic product loading feature. Clicking the 'Load More Products' button adds additional product details to the page without reloading, showcasing basic JavaScript interactivity and DOM manipulation.</p>
+        </footer>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
